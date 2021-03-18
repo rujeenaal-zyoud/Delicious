@@ -1,6 +1,6 @@
 
 
-alert('HI TO MY WEBSITE');
+
 
 var newtechnology = prompt("What is the best technology?");
 
