@@ -1,6 +1,7 @@
 
 
 
+alert("Hi in my website")
 
 var newtechnology = prompt("What is the best technology?");
 
@@ -13,7 +14,9 @@ if (newtechnology == 'VR') {
 }
 
 
-alert('What The most thing that you interseted about IOT ?');
+ var ar = prompt('What The most thing that you interseted about IOT ?');
+ 
+ document.write('<h2>'+ ar +'</h2>');
 
 
 var IOT = true;
