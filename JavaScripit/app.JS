@@ -1,6 +1,6 @@
 
 
-alert('What The most thing that you interseted about IOT ?');
+alert('HI TO MY WEBSITE');
 
 var newtechnology= prompt("What is the best technology?");
 
