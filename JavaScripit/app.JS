@@ -7,6 +7,11 @@ if (NAME === null || NAME === "") {
     var hello = "hi ,welcome in My sweet webpage ";
 } else { var hello = "hi " + NAME + ",welcome in  My sweet webpage"; }
 
+
+
+alert("Thanks for your visit")
+
+
 var sweets = prompt("Choics cookies or bakery?");
 
 if (sweets == 'cookies') {
@@ -17,8 +22,6 @@ if (sweets == 'cookies') {
     alert("Next time be sure more about it");
 }
 
-
-alert("Thanks for your visit")
 
 var ar = prompt('Whatis your  the fav sweet ?');
 console.log(ar);
