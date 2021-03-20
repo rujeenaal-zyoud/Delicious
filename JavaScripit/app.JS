@@ -1,30 +1,30 @@
 
 
 
-alert("Hi in my website")
+alert("Hi in my sweets website")
 
-var newtechnology = prompt("What is the best technology?");
+var sweets = prompt("Choics cookies or bakery?");
 
-if (newtechnology == 'VR') {
-    document.write('<div><img src="picture/VR.jpg" alt="robot" ></div>');
-} else if (newtechnology == 'robot') {
-    document.write('<div><img src="picture/robot.jpg" alt="VR" ></div>');
+if (sweets == 'cookies') {
+    document.write('<div><img src="picture/COOKIES.jpg" alt="cookies" ></div>');
+} else if (sweets == 'bakery') {
+    document.write('<div><img src="picture/BAKERY2.jpg" alt="bakery" ></div>');
 } else {
     alert("Next time be sure more about it");
 }
+alert("Thanks for your visit")
 
-
- var ar = prompt('What The most thing that you interseted about IOT ?');
+ var ar = prompt('Whatis your  the fav sweet ?');
  
  document.write('<h2>'+ ar +'</h2>');
 
 
-var IOT = true;
+var Sweet = true;
 
 
-if (IOT == true) {
-    console.log('new technology');
+if (Sweet == true) {
+    console.log('new ');
 }
 else {
-    console.log('actullay it is new tech with AI');
+    console.log('Be sure ');
 }
