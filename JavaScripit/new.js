@@ -1,12 +1,13 @@
 
 var NAME = prompt("Please enter your name");
-if (NAME === null || NAME === "") {
+if (NAME === null && NAME === " ") {
     var hello = "hi ,welcome in My sweet webpage ";
 } else { var hello = "hi " + NAME + ",welcome in  My sweet webpage"; }
 
+alert(hello);
 
 
-alert("Thanks for your visit")
+alert("Thanks for your visit");
 
 
 // var sweets = prompt("Choics cookies or bakery?");
@@ -27,10 +28,10 @@ var paint = '';
 var result = '';
 var num = prompt("How many pic you want to see?")
 if (sweets == 'cookies') {
-    paint = '<img src="picture/COOKIES.jpg/"> </br>';
+    paint = '<img src="picture/COOKIES.jpg/"> ';
 }
 else if (sweets == 'bakery') {
-    paint = '<img src="picture/BAKER.jpg/"> </br>';
+    paint = '<img src="picture/BAKER.jpg/"> ';
 }
 
 
@@ -45,9 +46,9 @@ console.log(result);
 
 
 
-// var ar = prompt('Whatis your  the fav sweet ?');
-// document.write('<h2>' + ar + '</h2>');
-// console.log(ar);
+var ar = prompt('Whatis your  the fav sweet ?');
+document.write('<h2>' + ar + '</h2>');
+console.log(ar);
 
 
 
