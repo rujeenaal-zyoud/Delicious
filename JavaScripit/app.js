@@ -31,10 +31,10 @@ var paint = '';
 var result = '';
 
 if (sweets == 'cookies') {
-    paint = '<img src="https://handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg"></br>';
-    console.log('hello');
+    paint = '<img src="https://handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg "></br>';
+    
 }else if (sweets == 'bakery'){
-    paint = '<img src="https://images.getbento.com/accounts/a3e72eb05f5158bbaa07dab02b2d4748/media/images/60195Photo_Apr_25_8_30_36_PM.jpg?fit=max&w=1800&auto=format,compress">';
+    paint = '<img src="https://images.getbento.com/accounts/a3e72eb05f5158bbaa07dab02b2d4748/media/images/60195Photo_Apr_25_8_30_36_PM.jpg?fit=max&w=1800&auto=format,compress"></br>';
 }
 
 for (var i = 0; i < num; i++) {
@@ -43,6 +43,7 @@ for (var i = 0; i < num; i++) {
 }
 document.write(result);
 console.log(result);
+console.log(num);
 
 
 
