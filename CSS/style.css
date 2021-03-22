@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://images.pexels.com/photos/3695378/pexels-photo-3695378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+}
+
+
+header{
+
+    color: #d46ea3;
+
+    background-color: #32045d ;
+
+    height: 80px;
+
+}
+
+header nav{
+
+    float: center;
+
+    width: 30%;
+
+    margin-top: 15px;
+
+}
+
+ header h1{
+     color:black;
+     text-align: center ;
+     font-size: 30px;  
+
+}
+
+  
+header nav ul li{
+
+    display: inline-block;
+
+    margin-left: 5%;
+
+}
+
+
+header nav ul li a{
+
+    color:#d46ea3;
+
+    text-decoration: none;
+
+    font-weight: 800;
+
+}
