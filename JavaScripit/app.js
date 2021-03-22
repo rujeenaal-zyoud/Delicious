@@ -1,10 +1,19 @@
 
 var NAME = prompt("Please enter your name");
-if (NAME === null && NAME === " ") {
-    var hello = "hi ,welcome in My sweet webpage ";
-} else { var hello = "hi " + NAME + ",welcome in  My sweet webpage"; }
+function hi(yourname);
+{
+    if (NAME === null && NAME === " ") {
+        var hello = "hi ,welcome in My sweet webpage ";
+    } else { var hello = "hi " + NAME + ",welcome in  My sweet webpage"; }
 
-alert(hello);
+    alert(hello);
+}
+
+
+hi(NAME);
+
+
+
 
 
 alert("Thanks for your visit");
@@ -22,7 +31,10 @@ alert("Thanks for your visit");
 // } else {
 //     alert("Next time be sure more about it");
 // }
+
 var sweets = prompt("Choics cookies or bakery?");
+var getsweets=function(){
+
 while (sweets !== "cookies" && sweets !== "bakery") {
     sweets = prompt('plz write cookies or bakery?');
 }
@@ -32,8 +44,8 @@ var result = '';
 
 if (sweets == 'cookies') {
     paint = '<img src="https://handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg "></br>';
-    
-}else if (sweets == 'bakery'){
+
+} else if (sweets == 'bakery') {
     paint = '<img src="https://images.getbento.com/accounts/a3e72eb05f5158bbaa07dab02b2d4748/media/images/60195Photo_Apr_25_8_30_36_PM.jpg?fit=max&w=1800&auto=format,compress"></br>';
 }
 
@@ -44,9 +56,10 @@ for (var i = 0; i < num; i++) {
 document.write(result);
 console.log(result);
 console.log(num);
+return(result);
+}
 
-
-
+getsweets();
 
 
 var ar = prompt('Whatis your  the fav sweet ?');
@@ -68,3 +81,27 @@ console.log(ar);
     // { document.body.style.backgroundColor = "blue"; }
 // }
 // else alert("page will be displayed in it's original colors!");
+var age = prompt("whats your age?");
+
+function getAge(userAge) {
+
+
+    if (userAge >= 18 && userAge <= 35) {
+
+        alert('welcome to the site');
+
+    } else if (userAge < 18 || userAge > 35) {
+
+        alert('sorry ');
+
+    } else {
+
+        alert('please input a number');
+
+    }
+
+}
+
+
+
+getAge(age);
